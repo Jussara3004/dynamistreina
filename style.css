@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600&display=swap');
+
+html * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+img {
+	border-radius: 8px;
+	width: 100%;
+}
+
+iframe {
+	display: block;
+	max-width: 100%;
+	margin-bottom: 22px;
+	height: 315px;
+}
+
+
+body {
+	font-family: 'Epilogue', sans-serif;
+}
+
+#titulo {
+	/* Caixa */
+	border-radius: 8px;
+	padding: 38px 22px;
+
+
+	/* Fonts */
+	color: #fff;
+	font-size: 42px;
+	font-weight: 200;
+	text-shadow: 2px 2px 4px #000;
+
+	/* Backgrounds */
+	background-color: #CCB454;
+	background-image: url("dynamislogo.png");
+	background-size: contain;
+	background-position: top left;
+
+	border-image: 2px solid blue;
+	border-radius: 8px;
+
+	margin: 8px 8px;
+
+	
+
+}
+
+h1 {
+  background-color: yellow;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-top: 4px solid blue;
+  border-bottom: 4px solid blue;
+  border-radius: 8px; 
+  margin: 8px 8px;
+
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  padding: 38px 24px;
+  text-shadow: 4px 4px 4px #000;
+  text-align: center;
+}
+
+
+
+p > span {
+  background-color: #999756;
+  padding: 0 4px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 4px solid #3779A6;
+  
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+nav > a {
+  border-bottom: 4px solid #3779A6;
+  color: #424242;
+  font-size: 20px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s; /* permite transições mais suaves de estados */
+
+}
+
+
+nav > a:hover {
+  background-color: #f7ce84;
+  border-bottom: 4px solid #B38918;
+  border-radius: 8px;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	justify-content: center;
+}
+
+.card {
+	background-color: #EBE6A4;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	padding: 22px;
+	align-self: flex-start;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+h2 {
+  border-bottom: 3px solid #ccc;
+  color: #424242;
+  font-size: 32px;
+  margin-bottom: 22px;
+  margin: 16px;
+
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+p > a {
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+footer {
+	height: 120px;
+	border-radius: 8px;
+	margin-top: 22px;
+
+	background-color: #424242;
+	background-image: url("dados red3.jpg");
+	background-position: center;
+	background-size: contain;
+	image-rendering: auto;
+}
+
+.filtro {
+	height: 100%;
+	background-color: rgba(0, 43, 0, 0.5);
+	border-radius: 8px;
+}
+
+.centro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+small {
+	font-size: 20px;
+	color: #fff;
+	position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
